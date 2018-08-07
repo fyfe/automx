@@ -15,7 +15,7 @@ setup(name='automx',
       package_dir={'': 'src'},
       data_files=[('/etc', ['src/conf/automx.conf'])],
       scripts=['src/automx-test'],
-      requires=['future', 'lxml', 'ipaddress'],
+      requires=['lxml'],
       classifiers=[
             'Development Status :: 4 - Beta',
             'Environment :: No Input/Output (Daemon)',
